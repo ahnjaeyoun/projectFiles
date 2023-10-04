@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black;  */
 }
 
 
@@ -41,7 +41,7 @@ header {
 
 #clientServicePage {
     width: 1920px;
-    height: 4810px;
+    height: 4000px;
     display: flex;
     flex-direction: column;
 }
@@ -56,7 +56,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    height: 4420px;
+    height: 3000px;
 }
 
 #textPack {
@@ -90,7 +90,7 @@ main {
 }
 
 #introduceText {
-    flex-basis: 10%;
+    flex-basis: 15%;
     display: flex;
     justify-content: center;
 }
@@ -109,7 +109,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 
 #teamImage-area > div > img {
@@ -120,7 +120,7 @@ main {
 
 #noticeArea {
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 20%;
     justify-content: center;
     align-items: center;
 }
@@ -134,7 +134,7 @@ main {
 
 #FAQ-area {
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 20%;
     justify-content: center;
     align-items: center;
 }
@@ -152,11 +152,16 @@ main {
 }
 
 #ask-area {
-    flex-basis: 15%;
+    flex-basis: 20%;
     display: flex;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+}
+
+#ask-box {
+    display: flex;
+    flex-direction: column;
 }
 
 #ask-area > div {
@@ -164,31 +169,91 @@ main {
     display: flex;
     flex-direction: column;
     font-family: 'Gowun Dodum', sans-serif;
-    font-size: x-large;
+    font-size: large;
     background-color: rgba(0, 0, 0, 0.1)   ;
     border-radius: 10px;
 }
 
-#ask-area > div > section:nth-of-type(1) {
-    flex-basis: 15%;
+#ask-box > section {
+    margin-left: 1rem;
 }
 
-#ask-area > div > section:nth-of-type(2) {
-    flex-basis: 30%;
+#ask-box > section:nth-of-type(1) {
+    height: 4rem;
+    font-size: x-large;
     display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-#ask-area > div > section:nth-of-type(3) {
-    flex-basis: 40%;
+#ask-box > section:nth-of-type(2) {
+    display: flex;
+    height: 11rem;
 }
 
-#ask-area > div > section:nth-of-type(4) {
-    flex-basis: 15%;
+#ask-title-boxes {
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+    align-items: center;
 }
 
-#ask-infor > div {
-    background-color: #D9D9D9;
+#ask-title-boxes > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+    width: 4rem;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
 }
+
+#ask-title-answers {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+#ask-title-answers > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+    width: 11rem;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#ask-box > section:nth-of-type(3) {
+    width: 55rem;
+    height: 15rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 2rem;
+}
+
+#ask-box > section:nth-of-type(4) {
+    height: 4rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#ask-box > section:nth-of-type(4) > button {
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 2rem;
+    border: none;
+
+}
+
+
+
+
+
+
+
 
 
 
